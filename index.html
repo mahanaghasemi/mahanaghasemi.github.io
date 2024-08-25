@@ -19,8 +19,8 @@
     margin-bottom: 30px;
     }
     .section-title {
-    width: 150px; /* Adjust as needed */
-    margin-right: 20px;
+/*     width: 150px; /* Adjust as needed */ 
+/*     margin-right: 20px; */
     font-size: 1.2em;
     font-weight: bold;
 /*     position: relative;
@@ -39,7 +39,7 @@
     left: 0;
     }
     .section-content {
-    flex: 1;
+/*     flex: 1; */
     }
     .link {
     /* width: 200px;
@@ -52,6 +52,22 @@
     background-color: white;
     color: black;
     }
+    .section {
+            display: flex; /* Ensure flexbox is used for section */
+            flex-direction: column; /* Default to column layout */
+    }
+    @media (min-width: 768px) {
+            .section {
+                flex-direction: row; /* Use row layout on larger screens */
+            }
+            .section-title {
+                width: 200px; /* Adjust width as needed */
+                margin-right: 20px;
+            }
+            .section-content {
+                flex: 1;
+            }
+        }
     </style>
 </head>
 <body>
