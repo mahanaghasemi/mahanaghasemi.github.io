@@ -13,7 +13,7 @@ font-family: Arial, sans-serif;
 line-height: 1.6;
 margin: 0;
 padding: 20px;
-background-color: rgb(0, 0, 80);
+background-color: rgb(0, 0, 40);
 color: white;
 text-align: left;
 /* padding: 40px 20px; */
@@ -161,7 +161,7 @@ text-decoration: underline;
 
 /* Footer */
 footer {
-background-color: rgb(0, 0, 80);
+background-color: rgb(0, 0, 40);
 color: white;
 text-align: center;
 padding: 20px;
